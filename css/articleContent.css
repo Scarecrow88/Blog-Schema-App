@@ -1,0 +1,115 @@
+.containerbox {
+    width: 100%;
+    height: 500px;
+    position: relative; 
+    margin-top: 80px;
+    background-image: url(../img/Wallpaper11.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.containerbox:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(161, 56, 52, 0.747);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.containerarticlebox article {
+    background-color: #E9D6AF;
+}
+.containerarticlebox img {
+    width: 70%;
+}
+.containerinfobox {
+    max-width: 1200px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.containerinfobox h1 {
+    font-size: 60px;
+    font-weight: 500;
+    color: white;
+}
+.containerinfobox p {
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+}
+.containerarticlebox {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+}
+article {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    box-shadow: 20px 20px 20px -20px black;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+article:before {
+    content: '';
+    width: 100%;
+    height: 6px;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    background-color: #800f2f;
+}
+article h1, h2 {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 40px;
+}
+article p {
+    margin-top: 20px;
+    font-size: 18px;
+    color:rgb(73, 71, 71);
+    text-align: justify;
+}
+article img {
+    width: 100%;
+    margin-top: 20px;
+}
+@media screen and (max-width: 966px) {
+    .containerarticlebox {
+        display: block;
+        width: 75%;
+    }
+    .containerarticlebox img {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .containerbox {
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width: 431px) {
+    .containerarticlebox img {
+        width: 80%;
+    }
+    .containerinfobox p {
+        padding: 0 15px;
+    }
+} 
+/* @media screen and (max-width: 431px) {
+    article img {
+        width: 50%;
+        margin-top: 20px;
+    }
+} */
