@@ -4,7 +4,7 @@
 - Responsive
 - Alternar menu
 ## Tecnologías utilizadas
-- **Frontend:** JavaScript, CSS
+- **Frontend:** React.js JavaScript, CSS
 ## Arquitecturas
 - Monolitica
 > Vista 1 de la pagina <br>

@@ -3,15 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-@font-face {
-    font-family: 'Segoe UI Light';
-    src: url('../font/segoe-ui-light.ttf');
-}
 body {
     font-family: 'Segoe UI Light';
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+@font-face {
+    font-family: 'Segoe UI Light';
+    src: url('../font/segoe-ui-light.ttf');
 }
 .bodybox::-webkit-scrollbar {
     width: 10px;
